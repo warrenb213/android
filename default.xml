@@ -26,7 +26,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="android_dalvik" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -228,7 +228,7 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/skia" name="android_external_skia" remote="origin" revision="refs/head/odroid_5410_master" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -291,7 +291,6 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
-  <project path="hardware/hardkernel" name="android_hardware_hardkernel" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="origin" revision="refs/heads/odroid_5410_master" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="origin" revision="refs/heads/odroid_5410_master" groups="pdk" />
@@ -308,8 +307,10 @@
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="hardware/samsung_slsi/exynos4" name="android_hardware_samsung_slsi_exynos4" remote="origin" revision="refs/heads/odroid_5410_master" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
+  <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="origin" revision="refs/heads/odroid_5410_master" />
+  <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="origin" revision="refs/heads/odroid_5410_master" />
+  <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" remote="origin" revision="refs/heads/odroid_5410_master" />
+  <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
