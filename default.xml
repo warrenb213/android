@@ -56,7 +56,7 @@
   <project path="device/samsung" name="android_device_samsung" remote="origin" revision="refs/heads/odroid_5410_master" groups="device" />
   <project path="device/hardkernel/odroidxu" name="android_device_hardkernel_odroidxu" remote="origin" revision="refs/heads/odroid_5410_master" groups="device" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" revision="refs/heads/odroid_5410_master" groups="device" >
-    <copyfile src="build_android.sh" dest="build_android.sh" />
+    <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
