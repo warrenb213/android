@@ -305,6 +305,7 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/realtek" name="android_hardware_realtek" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="origin" revision="refs/heads/odroid_5410_master" />
