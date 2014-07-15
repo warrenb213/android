@@ -221,7 +221,7 @@
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pixman" name="platform/external/pixman" />
-  <project path="external/ppp" name="android_external_ppp" remote="github" revision="refs/heads/4412_4.4.4_master" />
+  <project path="external/ppp" name="android_external_ppp" remote="origin" revision="refs/heads/4412_4.4.4_master" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="platform/external/qemu" />
