@@ -14,7 +14,7 @@
            review="review.cyanogenmod.org" />
 
   <remote  name="gcode"
-           fetch="https://gitorious.org/android-bluez" />
+           fetch="git://gitorious.org/android-bluez" />
 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
@@ -66,9 +66,9 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="external_bluetooth_bluez" remote="gcode" revision="75e2e479352b8f52705d0eb65b54559b99e6d09d" groups="pdk" />
-  <project path="external/bluetooth/glib" name="external_bluetooth_glib" remote="gcode" revision="1c19a937a71c99ed8561a6dd57da3c7136885890" groups="pdk" />
-  <project path="external/bluetooth/hcidump" name="external_bluetooth_hcidump" remote="gcode" revision="7322661808c2006b7848e79e6bb72b37fbcf6710" groups="pdk" />
+  <project path="external/bluetooth/bluez" name="codewalkers-external_bluetooth_bluez" remote="gcode" revision="75e2e479352b8f52705d0eb65b54559b99e6d09d" groups="pdk" />
+  <project path="external/bluetooth/glib" name="codewalkers-external_bluetooth_glib" remote="gcode" revision="1c19a937a71c99ed8561a6dd57da3c7136885890" groups="pdk" />
+  <project path="external/bluetooth/hcidump" name="codewalkers-external_bluetooth_hcidump" remote="gcode" revision="7322661808c2006b7848e79e6bb72b37fbcf6710" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
