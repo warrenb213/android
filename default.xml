@@ -50,7 +50,7 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung" name="android_device_samsung" remote="origin" revision="refs/heads/_5410_4.2.2_master" groups="device" />
+  <project path="device/samsung" name="android_device_samsung" remote="origin" revision="refs/heads/5410_4.2.2_master" groups="device" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
