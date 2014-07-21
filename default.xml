@@ -225,7 +225,6 @@
   <project path="hardware/ralink" name="android_hardware_ralink" remote="origin" revision="refs/heads/4412_4.1.2_master" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="origin" revision="refs/heads/4412_4.1.2_master" />
   <project path="hardware/ril" name="android_hardware_ril" remote="origin" revision="refs/heads/4412_4.1.2_master" />
-  <project path="hardware/samsung_slsi/exynos4" name="android_hardware_samsung_slsi_exynos4" remote="origin" revision="refs/heads/4412_4.1.2_master" groups="pdk" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
