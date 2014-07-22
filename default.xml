@@ -40,6 +40,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/smdk4x12" name="android_device_samsung_smdk4x12" remote="origin" revision="refs/heads/4412_4.1.2_master" />
   <project path="device/samsung/multimedia" name="android_device_samsung_multimedia" remote="origin" revision="refs/heads/4412_4.1.2_master" />
+  <project path="device/samsung/exynos4" name="android_device_samsung_exynos4" remote="origin" revision="refs/heads/4412_4.1.2_master" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="device/hardkernel/odroidq" name="android_device_hardkernel_odroidq" remote="origin" revision="refs/heads/4412_4.1.2_master" groups="device" />
   <project path="device/hardkernel/odroidq2" name="android_device_hardkernel_odroidq2" remote="origin" revision="refs/heads/4412_4.1.2_master" groups="device" />
